@@ -9,4 +9,8 @@
     <PackageReference Include="NUnit" Version="3.8.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TheProject\TheProject.csproj" />
+  </ItemGroup>
+
 </Project>
