@@ -1,5 +1,8 @@
 language: csharp 
-solution: FakingFrameworks.sln
 dist: trusty
 dotnet: 2.0.0
 mono: none
+install:
+  - nuget restore FakingFrameworks.sln
+script:
+  dotnet build -c Release FakingFrameworks.sln -f netstandard2.0
