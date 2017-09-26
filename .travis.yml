@@ -1,6 +1,8 @@
 language: csharp 
 dist: trusty
 dotnet: 2.0.0
-mono: none
+install:
+  - nuget install NUnit.Runners -Version 3.7.0 -OutputDirectory testrunner
 script:
-  dotnet build -c Release FakingFrameworks.sln -f netstandard2.0
+  - dotnet build -c Release FakingFrameworks.sln -f netstandard2.0
+  - mono ./testrunner/NUnit.Runners.3.7.0/tools/nunit-console.exe ./src/Release/netstandard2.0/*Tests.dll
