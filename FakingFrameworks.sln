@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheProject", "src\TheProject\TheProject.csproj", "{4F0396DB-B3EF-46C0-B2DA-199F4F43C1B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheProject", "src\TheProject\TheProject.csproj", "{4F0396DB-B3EF-46C0-B2DA-199F4F43C1B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSubstituteTests", "src\NSubstituteTests\NSubstituteTests.csproj", "{1CE6EC08-9288-4D5F-AE7C-3965469E9E8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NSubstituteTests", "src\NSubstituteTests\NSubstituteTests.csproj", "{1CE6EC08-9288-4D5F-AE7C-3965469E9E8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoqTests", "src\MoqTests\MoqTests.csproj", "{6089DCA1-FE32-4236-B61B-5B18AA3959F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoqTests", "src\MoqTests\MoqTests.csproj", "{6089DCA1-FE32-4236-B61B-5B18AA3959F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
