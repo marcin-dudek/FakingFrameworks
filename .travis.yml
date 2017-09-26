@@ -2,7 +2,7 @@ language: csharp
 dist: trusty
 dotnet: 2.0.0
 install:
-  - nuget install NUnit.Console -Version 3.7.0 -OutputDirectory testrunner
+  # - nuget install NUnit.Console -Version 3.7.0 -OutputDirectory testrunner
 script:
   - dotnet build -c Release FakingFrameworks.sln -f netstandard2.0
-  - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./src/Release/netstandard2.0/netstandard2.0/*Tests.dll
+  # - mono ./testrunner/NUnit.ConsoleRunner.3.7.0/tools/nunit3-console.exe ./src/Release/netstandard2.0/netstandard2.0/*Tests.dll
